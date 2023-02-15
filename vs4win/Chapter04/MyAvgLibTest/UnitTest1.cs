@@ -1,8 +1,7 @@
 using Xunit;
 using MyAvgLib;
 
-namespace MyAvgLibTest
-{
+namespace MyAvgLibTest{
     public class AverageTests
     {
         [Fact]
@@ -29,5 +28,5 @@ namespace MyAvgLibTest
 
             Assert.Equal(expected, actual, 3);
         }
-    }
+    } 
 }
